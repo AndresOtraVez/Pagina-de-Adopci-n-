@@ -44,7 +44,7 @@ body {
     position: fixed;
     top: 30px;
     right:30px;
-    background: #fff;
+    background-image: linear-gradient(-20deg, #61616123 0%, #9bc5c31f 100%);
     width: 40px;
     height: 40px;
     cursor: pointer;
@@ -78,11 +78,13 @@ body {
 }
 
 .titulo {
+    color: #fff;
     font-size: 60px;
     margin-bottom:15px;
 }
 
 .copy {
+    color: #fff;
     font-weight: 300;
     font-size: 25px;
 }
@@ -149,7 +151,7 @@ body {
 .img-galeria {
     object-fit: cover;
     width: 350px;
-    height: 400px;
+    height: 450px;
     display: block;
     margin-bottom: 15px;
     box-shadow: 0, 0, 6px rgba(0, 0, 0, .5);
